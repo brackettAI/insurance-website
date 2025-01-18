@@ -79,7 +79,7 @@ const BusinessDetailsPage = ({ nextPage, prevPage }) => {
           onClick={handleNext}
           className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
         >
-          Next
+          Continue to Coverage
         </button>
       </div>
     </div>
