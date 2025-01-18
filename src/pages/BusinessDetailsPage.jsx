@@ -28,6 +28,7 @@ const BusinessDetailsPage = ({ nextPage, prevPage }) => {
         <label className="block text-gray-700 font-medium mb-1">Legal Business Name</label>
         <input
           type="text"
+          aria-label={"Legal Business Name"}
           name="legalName"
           value={formData.legalName}
           onChange={handleChange}
@@ -39,6 +40,7 @@ const BusinessDetailsPage = ({ nextPage, prevPage }) => {
         <label className="block text-gray-700 font-medium mb-1">What’s your expected annual revenue?</label>
         <input
           type="number"
+          aria-label={"Annual Revenue"}
           name="annualRevenue"
           value={formData.annualRevenue}
           onChange={handleChange}
@@ -50,6 +52,7 @@ const BusinessDetailsPage = ({ nextPage, prevPage }) => {
         <label className="block text-gray-700 font-medium mb-1">What’s the estimated annual payroll for your business?</label>
         <input
           type="number"
+          aria-label={"Annual Payroll"}
           name="annualPayroll"
           value={formData.annualPayroll}
           onChange={handleChange}
@@ -61,6 +64,7 @@ const BusinessDetailsPage = ({ nextPage, prevPage }) => {
         <label className="block text-gray-700 font-medium mb-1">How many employees do you have?</label>
         <input
           type="number"
+          aria-label={"Employee Count"}
           name="employeeCount"
           value={formData.employeeCount}
           onChange={handleChange}

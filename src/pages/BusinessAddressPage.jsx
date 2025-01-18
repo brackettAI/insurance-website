@@ -25,6 +25,7 @@ const BusinessAddressPage = ({ nextPage, prevPage }) => {
       <h2 className="text-lg font-semibold mb-4">What’s your business address?</h2>
       <input
         type="text"
+        aria-label={"Address"}
         name="address"
         placeholder="Address"
         value={formData.address}
@@ -33,6 +34,7 @@ const BusinessAddressPage = ({ nextPage, prevPage }) => {
       />
       <input
         type="text"
+        aria-label={"Suite"}
         name="suite"
         placeholder="Suite (optional)"
         value={formData.suite}
@@ -41,6 +43,7 @@ const BusinessAddressPage = ({ nextPage, prevPage }) => {
       />
       <input
         type="text"
+        aria-label={"City"}
         name="city"
         placeholder="City"
         value={formData.city}
@@ -49,7 +52,9 @@ const BusinessAddressPage = ({ nextPage, prevPage }) => {
       />
       <input
         type="text"
+        aria-label={"State"}
         name="state"
+        aria-errormessage={}
         placeholder="State"
         value={formData.state}
         onChange={handleChange}
@@ -58,6 +63,7 @@ const BusinessAddressPage = ({ nextPage, prevPage }) => {
       <input
         type="text"
         name="zip"
+        aria-label={"ZIP Code"}
         placeholder="ZIP Code"
         value={formData.zip}
         onChange={handleChange}

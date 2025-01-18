@@ -14,6 +14,7 @@ const BusinessTypePage = ({ nextPage }) => {
       <h2 className="text-lg font-semibold mb-4">What’s your business type?</h2>
       <input
         type="text"
+        aria-label={"Business Type"}
         placeholder="Business Type"
         value={businessType}
         onChange={(e) => setBusinessType(e.target.value)}

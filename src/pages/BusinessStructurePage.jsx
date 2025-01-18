@@ -14,6 +14,7 @@ const BusinessStructurePage = ({ nextPage, prevPage }) => {
       <h2 className="text-lg font-semibold mb-4">How is your business structured?</h2>
       <input
         type="text"
+        aria-label={"Structure"}
         placeholder="Structure"
         value={structure}
         onChange={(e) => setStructure(e.target.value)}
