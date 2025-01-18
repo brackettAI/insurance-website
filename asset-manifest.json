@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/insurance-website/static/css/main.653480ae.css",
-    "main.js": "/insurance-website/static/js/main.07121647.js",
+    "main.css": "/insurance-website/static/css/main.0fa07ffc.css",
+    "main.js": "/insurance-website/static/js/main.6fb1ddbd.js",
+    "static/js/239.dabe27e4.chunk.js": "/insurance-website/static/js/239.dabe27e4.chunk.js",
+    "static/js/213.b4c7c6c2.chunk.js": "/insurance-website/static/js/213.b4c7c6c2.chunk.js",
+    "static/js/455.675bdab4.chunk.js": "/insurance-website/static/js/455.675bdab4.chunk.js",
     "index.html": "/insurance-website/index.html",
-    "main.653480ae.css.map": "/insurance-website/static/css/main.653480ae.css.map",
-    "main.07121647.js.map": "/insurance-website/static/js/main.07121647.js.map"
+    "main.0fa07ffc.css.map": "/insurance-website/static/css/main.0fa07ffc.css.map",
+    "main.6fb1ddbd.js.map": "/insurance-website/static/js/main.6fb1ddbd.js.map",
+    "239.dabe27e4.chunk.js.map": "/insurance-website/static/js/239.dabe27e4.chunk.js.map",
+    "213.b4c7c6c2.chunk.js.map": "/insurance-website/static/js/213.b4c7c6c2.chunk.js.map",
+    "455.675bdab4.chunk.js.map": "/insurance-website/static/js/455.675bdab4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.653480ae.css",
-    "static/js/main.07121647.js"
+    "static/css/main.0fa07ffc.css",
+    "static/js/main.6fb1ddbd.js"
   ]
 }
