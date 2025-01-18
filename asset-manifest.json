@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/insurance-website/static/css/main.f93b5404.css",
+    "main.js": "/insurance-website/static/js/main.f140c789.js",
+    "index.html": "/insurance-website/index.html",
+    "main.f93b5404.css.map": "/insurance-website/static/css/main.f93b5404.css.map",
+    "main.f140c789.js.map": "/insurance-website/static/js/main.f140c789.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f93b5404.css",
+    "static/js/main.f140c789.js"
+  ]
+}
