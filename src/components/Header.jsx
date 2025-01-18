@@ -4,7 +4,7 @@ const Header = ({ goToHome }) => (
     <header className="bg-blue-900 text-white py-4 px-6 flex justify-between items-center shadow-md">
         <div className="flex items-center space-x-28">
             <img
-                src={`${process.env.PUBLIC_URL}/logo.png`}
+                src={`${process.env.PUBLIC_URL}/icon.png`}
                 alt="Logo"
                 className="h-8"
                 onClick={goToHome}
