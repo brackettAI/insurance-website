@@ -54,7 +54,6 @@ const BusinessAddressPage = ({ nextPage, prevPage }) => {
         type="text"
         aria-label={"State"}
         name="state"
-        aria-errormessage={}
         placeholder="State"
         value={formData.state}
         onChange={handleChange}
